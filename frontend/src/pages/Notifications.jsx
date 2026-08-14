@@ -7,7 +7,7 @@ import NotificationBell from "../components/NotificationBell";
 function Notifications() {
   const navigate = useNavigate();
   const role = localStorage.getItem("role");
-  const name = localStorage.getItem("name");
+  //const name = localStorage.getItem("name");
   const [notifications, setNotifications] = useState([]);
   const [filterType, setFilterType] = useState("ALL");
   const [message, setMessage] = useState("");

@@ -12,7 +12,7 @@ import NotificationBell from "../components/NotificationBell";
 function Analytics() {
   const navigate = useNavigate();
   const role = localStorage.getItem("role");
-  const name = localStorage.getItem("name");
+  //const name = localStorage.getItem("name");
   const [analytics, setAnalytics] = useState(null);
   const [loading, setLoading] = useState(true);
 

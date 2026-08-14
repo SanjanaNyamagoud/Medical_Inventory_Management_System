@@ -9,7 +9,7 @@ import NotificationBell from "../components/NotificationBell";
 function Reports() {
   const navigate = useNavigate();
   const role = localStorage.getItem("role");
-  const name = localStorage.getItem("name");
+  //const name = localStorage.getItem("name");
   const [medicines, setMedicines] = useState([]);
   const [suppliers, setSuppliers] = useState([]);
   const [stockLogs, setStockLogs] = useState([]);
