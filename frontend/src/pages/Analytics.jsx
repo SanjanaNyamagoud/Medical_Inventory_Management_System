@@ -23,7 +23,7 @@ function Analytics() {
   const fetchAnalytics = async () => {
     try {
       const response = await axios.get(
-        `${API_URL}/api/medicines`
+        `${API_URL}/api/analytics/dashboard`
       );
       setAnalytics(response.data);
       setLoading(false);
