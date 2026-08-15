@@ -27,7 +27,7 @@ public CorsConfigurationSource corsConfigurationSource() {
     CorsConfiguration configuration = new CorsConfiguration();
     configuration.setAllowedOrigins(Arrays.asList(
         "http://localhost:3000",
-        "https://medical-inventory-mangement-system.netlify.app"
+        "https://medical-inventory-management-system.netlify.app"
     ));
     configuration.setAllowedMethods(Arrays.asList(
         "GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"
